@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+h3 {
+    background-color: rgb(42, 24, 43);
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+p{
+    text-align: center;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.logo {
+    width: 70px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-item:hover{
+    color: blueviolet;
+}
+
+.carousel-inner {
+    background-color: rgb(42, 24, 43);
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item {
+    width: 500px;
+    height: 500px;
+}
+
+.about-us{
+    margin: 40px auto;
+    padding: 30px;
+    box-shadow: 0px 0px 3px grey;
+    border-radius: 7px;
+}
+
+.about-brand{
+    padding: 30px;
+}
+
+.contact-us{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 40px;
+    border: 0;
+    padding: 10px 20px;
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+
+}
+
+
+.collections{
+    color: rgb(42, 24, 43);
+    font-style: italic;
+    text-align: center;
+    font-family: monospace;
+    margin: 30px;
+}
+
+.product-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px;
+}
+.products{
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
