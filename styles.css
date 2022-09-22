@@ -3,13 +3,14 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
 ul li {
     list-style-type: none;
 }
+
 
 h3 {
     background-color: rgb(42, 24, 43);
@@ -69,7 +70,6 @@ p{
 
 .contact-us{
     background-color: blueviolet;
-    color: white;
     border-radius: 40px;
     border: 0;
     padding: 10px 20px;
@@ -79,11 +79,48 @@ p{
     font-size: 20px;
 
 }
+.contact-us a{
+    color: white;
+text-decoration: none;
+}
 
+.contacts {
+    padding: 10px;
+    box-shadow: 0px 0px 3px grey;
+    border-radius: 7px;
+    margin-top: 30px;
+    width: 70%;
+}
+.store-address{
+    text-align: left;
+    padding: 10px;
+}
+
+.contact-heading{
+    color: blueviolet;
+font-weight: bold;
+font-family: monospace;
+margin-top: 5px;
+    font-size: 20px;
+    
+}
+
+.contact-input{
+    margin-top: 15px;
+}
+
+.submit{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border: 0px;
+    box-shadow: 0px 0px 0px grey;
+}
 
 .collections{
     color: rgb(42, 24, 43);
-    font-style: italic;
+font-weight: bold;
     text-align: center;
     font-family: monospace;
     margin: 30px;
@@ -101,3 +138,73 @@ p{
     border-radius: 5px;
     margin-top: 20px;
 }
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(42, 24, 43);
+    color: white;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.location li{
+margin-top:  20px;
+}
+
+.content li{
+    margin-top:  20px;
+    }
+    .content li a{
+        text-decoration: none;
+    color: white;
+    }
+
+.media-icon i{
+    margin: 10px;
+    color: white;
+}
+
+@media screen and (max-width:600px){
+    .container{
+        width: 100%;
+    }
+    header{
+        box-shadow: 0px 0px 5px grey;
+    }
+    .nav{
+        display: block;
+    }
+
+    .nav-item .nav-link{
+        padding: 0px;
+    }
+    .contact-us{ 
+        border-radius: 40px;
+        border: 0;
+        padding: 10px 20px;
+        width: 50%; 
+    }
+
+    .contacts{
+        width: 100%;
+    }
+    
+    .footer, .product-img{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .location, .content, .media-icon{
+        padding: 0px;
+        }
+
+        .content li{
+            margin: 0;
+        }
+
+}
+    
+
